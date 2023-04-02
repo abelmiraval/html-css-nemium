@@ -31,3 +31,10 @@ Responsable del area tecnica. Decisiones y negociaciones directas con los demas 
 2. Visual Code
 2. Figma
 4. Github
+
+---
+
+### HTML
+
+Hyper Text Markup Language o Lenguaje de marcas Hipertext. Es el componente mas basico de la web.
+Define el significado y la estructura del contenido.
