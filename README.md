@@ -41,3 +41,8 @@ Define el significado y la estructura del contenido.
 El Document Object Model es una estructura de arbol que representara todos nuestros proyectos web.
 
 ![tree](/images/dom.png)
+
+#### Etiquetas
+Las etiquetas HTML van a ayudarnos a brindar una estructura y semantica al contenido de nuestros webiste y cada una tiene caracteristicas y usos diferentes aunque visualmente den un resultado similar.
+
+![tree](/images/label.png)
