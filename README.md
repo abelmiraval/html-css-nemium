@@ -25,3 +25,9 @@ Soft Skills: carrer path, contratacion, negociacion
 
 #### CTO
 Responsable del area tecnica. Decisiones y negociaciones directas con los demas C level
+
+### Herramientas
+1. Google Chrome
+2. Visual Code
+2. Figma
+4. Github
