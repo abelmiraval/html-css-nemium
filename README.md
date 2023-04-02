@@ -46,3 +46,6 @@ El Document Object Model es una estructura de arbol que representara todos nuest
 Las etiquetas HTML van a ayudarnos a brindar una estructura y semantica al contenido de nuestros webiste y cada una tiene caracteristicas y usos diferentes aunque visualmente den un resultado similar.
 
 ![label](/images/label.png)
+
+#### Atributos
+Los atributos dan caracteristicas extras a las etiquetas.
