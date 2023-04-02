@@ -49,3 +49,8 @@ Las etiquetas HTML van a ayudarnos a brindar una estructura y semantica al conte
 
 #### Atributos
 Los atributos dan caracteristicas extras a las etiquetas.
+
+#### Semantica
+La semantica le brinda sentido a cada elemento existente en un sitio web
+
+[Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
