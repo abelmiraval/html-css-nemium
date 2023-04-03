@@ -33,7 +33,7 @@ Responsable del area tecnica. Decisiones y negociaciones directas con los demas 
 4. Github
 
 ---
-### HTML
+#### HTML
 Hyper Text Markup Language o Lenguaje de marcas Hipertext. Es el componente mas basico de la web.
 Define el significado y la estructura del contenido.
 
@@ -65,3 +65,7 @@ La semantica le brinda sentido a cada elemento existente en un sitio web
 #### Insertar codigo
 
 [Escapa codigo](https://www.freeformatter.com/html-escape.html)
+
+
+#### CSS
+CSS Cascaing Style Sheets es el lenguaje de estilos utilizado para describir la presentacion de documentos HTML
