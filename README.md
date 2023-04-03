@@ -61,3 +61,7 @@ La semantica le brinda sentido a cada elemento existente en un sitio web
 - images/rutas.png, ruta relativa busca desde el directorio actual
 - ./images/rutas.png, ruta relativa busca desde el directorio actual
 - .../images/rutas.png, ruta relativa navegacion entre carpetas
+
+#### Insertar codigo
+
+[Escapa codigo](https://www.freeformatter.com/html-escape.html)
