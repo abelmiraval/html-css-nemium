@@ -54,3 +54,10 @@ Los atributos dan caracteristicas extras a las etiquetas.
 La semantica le brinda sentido a cada elemento existente en un sitio web
 
 [Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+#### Enlaces y rutas
+- http://www.mozilla.org/logo.png, ruta absoluta
+- /images/rutas.png, ruta absoluta busca desde el direcctorio root
+- images/rutas.png, ruta relativa busca desde el directorio actual
+- ./images/rutas.png, ruta relativa busca desde el directorio actual
+- .../images/rutas.png, ruta relativa navegacion entre carpetas
