@@ -1,4 +1,3 @@
-
 ---
 ### Profesiones en el mundo de la programacion
 
@@ -33,29 +32,36 @@ Responsable del area tecnica. Decisiones y negociaciones directas con los demas 
 4. Github
 
 ---
+
 #### HTML
+
 Hyper Text Markup Language o Lenguaje de marcas Hipertext. Es el componente mas basico de la web.
 Define el significado y la estructura del contenido.
 
 #### DOM
+
 El Document Object Model es una estructura de arbol que representara todos nuestros proyectos web.
 
 ![dom](/images/dom.png)
 
 #### Etiquetas
+
 Las etiquetas HTML van a ayudarnos a brindar una estructura y semantica al contenido de nuestros webiste y cada una tiene caracteristicas y usos diferentes aunque visualmente den un resultado similar.
 
 ![label](/images/label.png)
 
 #### Atributos
+
 Los atributos dan caracteristicas extras a las etiquetas.
 
 #### Semantica
+
 La semantica le brinda sentido a cada elemento existente en un sitio web
 
 [Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 #### Enlaces y rutas
+
 - http://www.mozilla.org/logo.png, ruta absoluta
 - /images/rutas.png, ruta absoluta busca desde el direcctorio root
 - images/rutas.png, ruta relativa busca desde el directorio actual
@@ -66,19 +72,87 @@ La semantica le brinda sentido a cada elemento existente en un sitio web
 
 [Escapa codigo](https://www.freeformatter.com/html-escape.html)
 
-
 #### CSS
+
 CSS Cascaing Style Sheets es el lenguaje de estilos utilizado para describir la presentacion de documentos HTML
 
-
 #### 3 formas de agregar CSS
-- A través de la etiqueta ``` link```
-- A través de la etiqueta ```<style> </style> ```
 
-- A traves del atributo ```style ```
+- A través de la etiqueta ` link`
+- A través de la etiqueta `<style> </style> `
 
-La etiqueta ```<style> </style>``` se utiliza para hacer aplicar estilos a una plantilla de correo.
+- A traves del atributo `style `
 
+La etiqueta `<style> </style>` se utiliza para hacer aplicar estilos a una plantilla de correo.
 
 #### Reglas de CSS
+
 ![Reglas de css](/images/rules-css.png)
+
+#### Selectores
+
+Los selectores definen sobre que elemento se aplicara un conjutno de reglas CSS
+
+[practice](https://flukeout.github.io/)
+
+##### Global
+
+Afecta a TODOS los elementos.
+![Selector global](/images/selector-global.png)
+
+##### Etiqueta
+
+Hacen referencia a todos los elementos HTML que coincidan
+![Selector etiqueta](/images/selector-etiqueta.png)
+
+##### Clase
+
+Las clases se puedan repetir y un elemento puede tener mas de una clase.
+![Selector clase](/images/selector-clase.png)
+
+##### Id
+
+Solo un elemento puede tener el mismo id en una pagina.
+![Selector id](/images/selector-id.png)
+
+##### [atributo]
+
+Todos los elementos que contengan el atributo o valor de atributo en cuestion.
+![Selector atributo](/images/selector-atributo.png)
+
+##### Grupo
+
+N selectores se pueden configurar con las mismas propiedas.
+![Selector grupo](/images/selector-grupo.png)
+
+##### Descendente
+
+Mas especificos.
+![Selector descendente](/images/selector-descendente.png)
+
+##### > Hijo directo
+
+Los hijos directos del selector previo a >.
+![Selector hijo directo](/images/selector-hijo-directo.png)
+
+##### ~ Hermano
+
+Los elementos en el mismo nivel.
+![Selector hermano](/images/selector-hermano.png)
+
+##### + Adyacente
+
+Como el hermano pero solo el mas cercano.
+![Selector adyacente](/images/selector-adyacente.png)
+
+##### Pseudo Selectores
+
+###### :PseudoClase
+
+Representan estados de un elemento
+![pseudoclase](/images/pseudoclase-hover.png)
+
+###### :PseudoElemento
+
+Crean elementos especiales
+![pseudoelemento](/images/pseudoelemento.png)
