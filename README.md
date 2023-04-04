@@ -69,3 +69,12 @@ La semantica le brinda sentido a cada elemento existente en un sitio web
 
 #### CSS
 CSS Cascaing Style Sheets es el lenguaje de estilos utilizado para describir la presentacion de documentos HTML
+
+
+#### 3 formas de agregar CSS
+- A través de la etiqueta ``` link```
+- A través de la etiqueta ```<style> </style> ```
+
+- A traves del atributo ```style ```
+
+La etiqueta ```<style> </style>``` se utiliza para hacer aplicar estilos a una plantilla de correo.
