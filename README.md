@@ -78,3 +78,7 @@ CSS Cascaing Style Sheets es el lenguaje de estilos utilizado para describir la 
 - A traves del atributo ```style ```
 
 La etiqueta ```<style> </style>``` se utiliza para hacer aplicar estilos a una plantilla de correo.
+
+
+#### Reglas de CSS
+![Reglas de css](/images/rules-css.png)
