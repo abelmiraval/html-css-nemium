@@ -166,3 +166,20 @@ Para quitar esos estilos usar [Reset CSS](https://meyerweb.com/eric/tools/css/re
 ![user agent style](/images/user-agent-style-1.png)
 
 ![user agent style](/images/user-agent-style-2.png)
+
+---
+
+#### Cascada, Especificidad y Herencia
+
+##### Cascada
+Cascada de arriba hacia abajo, una hoja de estilos css se lee de arriba hacia abajo, lo que venga va sobrescribir a lo otro.
+
+##### Especificidad
+- Cuando hay coincidencia de elementos se aplica la cascada y tambien se aplica la relevancia que tiene ese elemento. La relevancia de clase es mayor a la relevancia del tag.
+
+- La clase es superior a la etiqueta, el id es superior a la clase.
+
+##### Herencia
+La herencia va en todos los niveles, la herencias mas usados, son tamaño, font-weight, fuente, color.
+
+![propiedades herencia](/images/propiedades-herencia.png)
