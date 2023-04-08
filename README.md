@@ -1,4 +1,3 @@
----
 ### Profesiones en el mundo de la programacion
 
 ####  Frontend
