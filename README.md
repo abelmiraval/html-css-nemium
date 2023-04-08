@@ -93,7 +93,7 @@ La etiqueta ```<style> </style>``` se utiliza para hacer aplicar estilos a una p
 
 Los selectores definen sobre que elemento se aplicara un conjutno de reglas CSS
 
-[practice](https://flukeout.github.io/)
+[practice selectors](https://flukeout.github.io/)
 
 ##### Global
 
@@ -156,3 +156,13 @@ Representan estados de un elemento
 
 Crean elementos especiales
 ![pseudoelemento](/images/pseudoelemento.png)
+
+---
+#### User Agent Style
+Las etiquetas reciben estilos particulares predefinidos por el navegador.
+
+Para quitar esos estilos usar [Reset CSS](https://meyerweb.com/eric/tools/css/reset/) y que el estilo en varios navegadores sea homogeo con nuestras CSS.
+
+![user agent style](/images/user-agent-style-1.png)
+
+![user agent style](/images/user-agent-style-2.png)
