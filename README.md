@@ -182,3 +182,21 @@ Cascada de arriba hacia abajo, una hoja de estilos css se lee de arriba hacia ab
 La herencia va en todos los niveles, la herencias mas usados, son tamaño, font-weight, fuente, color.
 
 ![propiedades herencia](/images/propiedades-herencia.png)
+
+---
+
+#### Content Component Layout
+
+##### Contenido
+Lo mas desglosado posible
+
+![content](/images/content.png)
+
+##### Componentes
+Son conjunto un de contenidos
+
+![component](/images/component.png)
+
+##### Layout
+Con los componentes componenmos un layout
+![layout](/images/layout.png)
