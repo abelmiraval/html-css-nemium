@@ -232,4 +232,22 @@ Esto se puede modificar en CSS para poder ajustar nuestro website a otro idiomas
 ---
 
 #### Colors
-Un color puede ser descrito como palabra clave, hexadecimal, rgb(a) y hls(a)
+Un color puede ser descrito como palabra clave, hexadecimal, rgb(a) y hls(a) [color_value](https://developer.mozilla.org/es/docs/Web/CSS/color_value)
+
+---
+
+#### Values and Units
+
+Existen [unidades de medid](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) a absolutas y relativas, en esta clase aprende a usar px, em, rem y vw
+
+##### px
+Es una medida absoluta
+
+##### em
+Es una medida relativa, siempre toma el valor del font-size del elemento padre mas cercano y va en relativo en cadena
+
+##### rem
+Es una medida relativa, no va en herencia sobre herencia como lo hace los em, sino que siempre va tomar el valor de tamano de fuente que tenga mas acercado al root de nuestro elemento ejem: html(el elemento mas padre)
+
+##### vw
+Area visible del navegador, sin contar con el scroll
