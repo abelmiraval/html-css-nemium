@@ -200,3 +200,30 @@ Son conjunto un de contenidos
 ##### Layout
 Con los componentes componenmos un layout
 ![layout](/images/layout.png)
+
+
+---
+
+#### Display/Flow/inline-block
+
+##### Display
+Nos referimos a la propiedad que dice si un elemento o tag de HTML se comporta como block o inline
+
+###### display:block
+Toma el ancho de su línea y empuja al contenido siguiente.
+
+###### display:inline
+Toma todo el ancho de su contenido.
+
+##### Flow
+Es el flujo y la manera en como se va renderizando el contenido.
+
+###### Flow Layout
+Obecede la configuración writing-mode y direction.
+
+###### writing-mode: horizontal-tb
+Leemos de forma horizontal y de arriba hacia abajo.
+###### direction: ltr
+Leemos de izquierda a derecha.
+
+Esto se puede modificar en CSS para poder ajustar nuestro website a otro idiomas como el Árabe por ejemplo.
