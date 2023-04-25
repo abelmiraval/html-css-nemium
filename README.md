@@ -227,3 +227,9 @@ Leemos de forma horizontal y de arriba hacia abajo.
 Leemos de izquierda a derecha.
 
 Esto se puede modificar en CSS para poder ajustar nuestro website a otro idiomas como el Árabe por ejemplo.
+
+
+---
+
+#### Colors
+Un color puede ser descrito como palabra clave, hexadecimal, rgb(a) y hls(a)
