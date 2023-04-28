@@ -238,7 +238,7 @@ Un color puede ser descrito como palabra clave, hexadecimal, rgb(a) y hls(a) [co
 
 #### Values and Units
 
-Existen [unidades de medid](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) a absolutas y relativas, en esta clase aprende a usar px, em, rem y vw
+Existen [unidades de medida](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) a absolutas y relativas, en esta clase aprende a usar px, em, rem y vw
 
 ##### px
 Es una medida absoluta
@@ -251,3 +251,12 @@ Es una medida relativa, no va en herencia sobre herencia como lo hace los em, si
 
 ##### vw
 Area visible del navegador, sin contar con el scroll
+
+---
+
+#### Pseudo-clase
+
+Una [pseudo-clase](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes ) CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado.
+
+##### :root
+Tiene un peso superior cuando lo usamos como pseudo-clase.

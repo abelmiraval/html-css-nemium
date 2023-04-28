@@ -1,6 +1,10 @@
-html{
-  font-size: 16px;
+:root{
+  font-size: 18px;
 }
+
+/* html{
+  font-size: 16px;
+} */
 
 body {
   color: #212121;
@@ -12,8 +16,24 @@ a {
 
 header {
   font-size: 14px;
-  width: 100vw;
-  background:red;
+  color: #616161;
+}
+
+header a {
+  color: #616161;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: #212121;
+}
+
+nav details summary{
+  font-weight: bold;
+}
+
+ol li:first-child {
+  border: 1px solid red;
 }
 
 h1 {
