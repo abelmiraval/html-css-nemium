@@ -255,7 +255,6 @@ Area visible del navegador, sin contar con el scroll
 ---
 
 #### Pseudo-clase
-
 Una [pseudo-clase](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes ) CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado.
 
 ##### :root
@@ -268,3 +267,12 @@ Los [custom properties](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-cla
 ---
 #### Custom fonts
 Con las regla [@font-face](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes ) puedes añadir fuentes personalizadas
+
+---
+
+#### Google fonts
+
+[google fonts](https://fonts.google.com/)
+
+#### Background
+El background hace que se multiplique en el eje x y en el eje y, es una opcion por defecto
