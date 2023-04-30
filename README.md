@@ -263,5 +263,8 @@ Tiene un peso superior cuando lo usamos como pseudo-clase.
 
 
 #### Custom properties
-
 Los [custom properties](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes ) o variables en CSS nos ayudarán a almacenar datos para ser reutilizados por referencia en múltiples partes de nuestras hojas de estilo, son modificables según su contexto y también manipulables desde JavaScript. Se puede almacenar cualquier cosa, antes se usaba sass para poder lograr esta caracteristica.
+
+---
+#### Custom fonts
+Con las regla [@font-face](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes ) puedes añadir fuentes personalizadas
