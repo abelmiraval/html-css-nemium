@@ -276,3 +276,8 @@ Con las regla [@font-face](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-
 
 #### Background
 El background hace que se multiplique en el eje x y en el eje y, es una opcion por defecto
+
+---
+
+#### Pseudo Elements
+Hay elementos seleccionables y creados a partir de otros elementos como after y before o el placeholder de los inputs de formulario.
