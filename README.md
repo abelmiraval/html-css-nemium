@@ -306,3 +306,16 @@ Todos nuestros elementos forman un espacio potencialmente compuesto por contenid
 
 ##### Width height
 ![box model](/images/width-height.png)
+
+---
+
+#### Logical and physical properties and values
+Introducción al  [nuevo modelo de propiedades y valores](https://drafts.csswg.org/css-logical/)  nuevo modelo de propiedades y valores para una web más semántica
+
+Los valores logicos son de donde empiezo y donde termino.
+En  vertical seria el bloque, en horizontal seria la linea
+
+##### Default Config
+1. direction: ltr;
+2. writing-mode: horizontal-tb;
+3. text-orientation: mixed;
