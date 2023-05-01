@@ -281,3 +281,8 @@ El background hace que se multiplique en el eje x y en el eje y, es una opcion p
 
 #### Pseudo Elements
 Hay elementos seleccionables y creados a partir de otros elementos como after y before o el placeholder de los inputs de formulario.
+
+---
+
+#### Counters
+Podemos crear [listas personalizadas](https://www.w3.org/TR/CSS2/generate.html#counter-styles) con otros elementos semánticos que no sean ul ol li, en este ejercicio vamos a enumerar cada subtítulo dentro de cada sección de nuestra página.
