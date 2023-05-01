@@ -286,3 +286,23 @@ Hay elementos seleccionables y creados a partir de otros elementos como after y 
 
 #### Counters
 Podemos crear [listas personalizadas](https://www.w3.org/TR/CSS2/generate.html#counter-styles) con otros elementos semánticos que no sean ul ol li, en este ejercicio vamos a enumerar cada subtítulo dentro de cada sección de nuestra página.
+
+
+---
+
+#### Box Model
+Todos nuestros elementos forman un espacio potencialmente compuesto por contenido, relleno, bordes y márgenes.
+
+![box model](/images/box-model.png)
+
+##### Margin
+![box model](/images/margin.png)
+
+##### Border
+![box model](/images/margin.png)
+
+##### Padding
+![box model](/images/padding.png)
+
+##### Width height
+![box model](/images/width-height.png)
