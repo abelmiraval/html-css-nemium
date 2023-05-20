@@ -319,3 +319,12 @@ En  vertical seria el bloque, en horizontal seria la linea
 1. direction: ltr;
 2. writing-mode: horizontal-tb;
 3. text-orientation: mixed;
+
+---
+
+#### Layout with properties and physical values
+
+##### Margins
+
+Espacio que hay alrededor de un elemento HTML por fuera de sus bordes
+
