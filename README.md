@@ -328,3 +328,6 @@ En  vertical seria el bloque, en horizontal seria la linea
 
 Espacio que hay alrededor de un elemento HTML por fuera de sus bordes
 
+##### Margin Collapsing
+Efecto que sufren los márgenes colindantes en bloques que en vez de sumarse “colapsan” y solo queda el de mayor tamaño
+Este efecto solo funciona de manera vertical cuando el contexto es un elemento en bloque
