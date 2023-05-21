@@ -275,7 +275,11 @@ Con las regla [@font-face](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-
 [google fonts](https://fonts.google.com/)
 
 #### Background
-El background hace que se multiplique en el eje x y en el eje y, es una opcion por defecto
+Con Background puedes poner un color, una imagen o hasta un degradado de fondo sobre un mismo elemento.
+
+El background  hace que se multiplique en el eje x y en el eje y, es una opcion por defecto.
+
+background es una propiedad resumida, donde aparte del color puedes añadir su position, repeat, etc. background-color es exclusiva para el color en color clase, hexadecimal, rgba o hsla.
 
 ---
 
@@ -325,9 +329,14 @@ En  vertical seria el bloque, en horizontal seria la linea
 #### Layout with properties and physical values
 
 ##### Margins
-
 Espacio que hay alrededor de un elemento HTML por fuera de sus bordes
 
 ##### Margin Collapsing
 Efecto que sufren los márgenes colindantes en bloques que en vez de sumarse “colapsan” y solo queda el de mayor tamaño
 Este efecto solo funciona de manera vertical cuando el contexto es un elemento en bloque
+
+
+##### Padding
+Margen interno o “relleno” de un elemento HTML.
+
+El espaciado con respecto a otros elementos para separarlos es el margin, el espaciado que tiene el contenido con su caja contenedora es el padding.
