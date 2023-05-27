@@ -99,6 +99,10 @@ h3 {
   margin-top: 16px;
   margin-bottom: 24px;
   font-weight: normal;
+  width: 200px;
+  padding: 20px;
+  border: 1px solid red;
+  box-sizing: border-box;
 }
 
 pre {
@@ -118,7 +122,7 @@ blockquote {
   /* border-top-color: aqua; */
   /* border-top-style: dashed; */
   /* border-radius: 50px 100px 10px 0; */
-  
+
   border-left: 4px solid var(--gray30);
 }
 
@@ -128,6 +132,20 @@ blockquote span {
 
 blockquote span::before {
   content: "-"
+}
+
+.form {
+  font-size: 0;
+}
+
+input {
+  padding: 10px 20px;
+  /* margin: 20px;
+  display: block;
+  width: 500px; */
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid red
 }
 
 .hero {

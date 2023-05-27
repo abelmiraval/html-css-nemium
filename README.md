@@ -343,3 +343,16 @@ El espaciado con respecto a otros elementos para separarlos es el margin, el esp
 
 ##### Border
 Las fronteras visibles con las que podrás diferenciar entre margen y relleno
+
+##### Box sizing
+<pre>box-sizing: border-box</pre> sirve para poder controlar el ancho, los padding y borde no se sumarian a la caja, lo que haria es adaptarse al width.
+En proyectos que requiren mucha escabilidad no es recomendable la propiedad border box. Al no tener la propiedad <pre>border box</pre> cuando se expande se ajustara mas flexible.
+<pre>
+* {
+  box-sizing: border-box;
+}
+<pre>
+
+Es una mala practica decir que todos los elementos sean border-box
+
+Donde es recomendable usar <pre>border box</pre> es en los formularios para poder dividir en dos columnas, ejemplo la columna nombre y apellidos.
