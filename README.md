@@ -59,6 +59,10 @@ La semantica le brinda sentido a cada elemento existente en un sitio web
 
 [Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
+[Web Skills](https://andreasbm.github.io/web-skills/)
+
+[HTML Reference](https://htmlreference.io/)
+
 #### Enlaces y rutas
 
 - http://www.mozilla.org/logo.png, ruta absoluta
@@ -319,6 +323,8 @@ Introducción al  [nuevo modelo de propiedades y valores](https://drafts.csswg.o
 Los valores logicos son de donde empiezo y donde termino.
 En  vertical seria el bloque, en horizontal seria la linea
 
+[Explicacion model logico y fisico](https://medium.com/@SusCasasola/el-futuro-de-css-modos-de-escritura-propiedades-y-valores-l%C3%B3gicos-a9c4bcaae5a1)
+
 ##### Default Config
 1. direction: ltr;
 2. writing-mode: horizontal-tb;
@@ -334,6 +340,11 @@ Espacio que hay alrededor de un elemento HTML por fuera de sus bordes
 ##### Margin Collapsing
 Efecto que sufren los márgenes colindantes en bloques que en vez de sumarse “colapsan” y solo queda el de mayor tamaño
 Este efecto solo funciona de manera vertical cuando el contexto es un elemento en bloque
+
+
+[margin collapsing](https://dev.to/lupitacode/entendiendo-el-colapso-de-margenes-margin-collapsing-4oj6)
+
+
 
 
 ##### Padding
@@ -356,3 +367,5 @@ En proyectos que requiren mucha escabilidad no es recomendable la propiedad bord
 Es una mala practica decir que todos los elementos sean border-box
 
 Donde es recomendable usar <pre>border box</pre> es en los formularios para poder dividir en dos columnas, ejemplo la columna nombre y apellidos.
+
+
