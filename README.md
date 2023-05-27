@@ -340,3 +340,6 @@ Este efecto solo funciona de manera vertical cuando el contexto es un elemento e
 Margen interno o “relleno” de un elemento HTML.
 
 El espaciado con respecto a otros elementos para separarlos es el margin, el espaciado que tiene el contenido con su caja contenedora es el padding.
+
+##### Border
+Las fronteras visibles con las que podrás diferenciar entre margen y relleno
