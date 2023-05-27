@@ -369,3 +369,7 @@ Es una mala practica decir que todos los elementos sean border-box
 Donde es recomendable usar <pre>border box</pre> es en los formularios para poder dividir en dos columnas, ejemplo la columna nombre y apellidos.
 
 
+
+###### Debug styles
+
+Cuando nuestros estilos y elementos se van expandiendo a veces es difícil saber dónde está un elemento y si realmente nuestros selectores lo están afectando o si sus dimensiones son correctas con respecto al modelo de caja.
