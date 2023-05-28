@@ -362,7 +362,7 @@ En proyectos que requiren mucha escabilidad no es recomendable la propiedad bord
 * {
   box-sizing: border-box;
 }
-<pre>
+</pre>
 
 Es una mala practica decir que todos los elementos sean border-box
 
@@ -373,3 +373,20 @@ Donde es recomendable usar <pre>border box</pre> es en los formularios para pode
 ###### Debug styles
 
 Cuando nuestros estilos y elementos se van expandiendo a veces es difícil saber dónde está un elemento y si realmente nuestros selectores lo están afectando o si sus dimensiones son correctas con respecto al modelo de caja.
+
+
+###### Wrapping techniques
+Consiste en tener un componente, un encapsulador del contenido y el contenido
+
+<pre>
+  <section class="services">
+    <div class="wrapper">
+      <div class="services-content">
+      </div>
+    </div>
+  </section>
+</pre>
+
+services => podria pintar el color de fondo
+wrapper => deliminar las fronteras del contenido, tambien para centrarlo
+services-content => para todo el contenido
