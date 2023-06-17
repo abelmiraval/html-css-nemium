@@ -345,8 +345,6 @@ Este efecto solo funciona de manera vertical cuando el contexto es un elemento e
 [margin collapsing](https://dev.to/lupitacode/entendiendo-el-colapso-de-margenes-margin-collapsing-4oj6)
 
 
-
-
 ##### Padding
 Margen interno o “relleno” de un elemento HTML.
 
@@ -370,23 +368,53 @@ Donde es recomendable usar <pre>border box</pre> es en los formularios para pode
 
 
 
-###### Debug styles
+##### Debug styles
 
 Cuando nuestros estilos y elementos se van expandiendo a veces es difícil saber dónde está un elemento y si realmente nuestros selectores lo están afectando o si sus dimensiones son correctas con respecto al modelo de caja.
 
 
-###### Wrapping techniques
-Consiste en tener un componente, un encapsulador del contenido y el contenido
+##### Wrapping techniques
+Consiste en tener un componente, un encapsulador del contenido y el contenido.
 
-<pre>
+ ```html
   <section class="services">
     <div class="wrapper">
       <div class="services-content">
       </div>
     </div>
   </section>
-</pre>
+```
 
 services => podria pintar el color de fondo
 wrapper => deliminar las fronteras del contenido, tambien para centrarlo
 services-content => para todo el contenido
+
+##### Positions
+Existen 5 tipo de position:
+- relative
+- absolute
+- static
+- fixed
+- sticky
+
+Cuando usamos position se activan 5 propiedades para poder usar top, left, right, bottom, z-index.
+
+a) El position relative conserva su lugar fisico
+
+b) El position absolute se ubica en donde se encuentra fisicamente, no conserva su lugar fisico
+
+Podemos crear ventanas de modal con el position absolute de la siguiente manera:
+<pre>
+  .modal{
+    position: absolute
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin: 50px
+  }
+</pre>
+
+Esta tecnica se asemeja a dos imanes que esta jalando al elemento y entre comillas le va dar el 100% de su contenedor.
+
+- Cuando usamos position absolute toma como padre al primer elemento con <code>position:relative</code>, si no lo hubiera toma al viewport
