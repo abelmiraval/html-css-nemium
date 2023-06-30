@@ -423,9 +423,12 @@ Esta tecnica se asemeja a dos imanes que esta jalando al elemento y entre comill
 
 ##### Margins
 
-
 <code>margin-inline: 100px;</code>, esta es de derecha a izquierda
 
 <code>margin-block: 100px;</code>, es es de arriba hacia abajo
 
 Esto se aplica en ese caso, siempre y cuando no se haya modificado el flex-direction
+
+##### Sizes / Wrapper
+
+Aplicación de la técnica del wrapper usando max-inline-size

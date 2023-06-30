@@ -126,6 +126,8 @@ p{
 .section-content img{
   margin-block-start: 40px;
   display: block;
+  max-inline-size: 100%;
+  /* max-width: 100%; */
 }
 
 .section-content {
@@ -161,4 +163,19 @@ blockquote {
 
 .main  hr{
   display: none;
+}
+
+.main {
+  /* border: 1px solid red; */
+}
+
+.wrapper {
+  max-inline-size: 902px;
+  /* block-size: 100px; */
+  overflow: auto;
+  margin: auto;
+}
+
+.main-content{
+  /* border: 1px solid blue; */
 }
