@@ -43,7 +43,15 @@ body {
   font-family: 'Nunito', sans-serif;
   margin: 0;
   background: #251f24 ;
+  /* writing-mode: vertical-lr; */
+  /* margin: 10px 10px 10px 10px; */
+  /* margin-inline: 100px; */
+  /* margin-block: 100px; */
+  /* margin-block-start: 50px; */
+  /* margin-block-end: 50px; */
+  /* margin: 0 100px; */
   /* font-family: charter; */
+
 }
 
 a {
@@ -78,15 +86,25 @@ h1,h2,h3{
 
 h1 {
   font-size: 60px ;
+  margin-block-start: 64px;
+  margin-block-end: 16px;
   /* font-size: 3.75em; */
 }
 
 h2 {
   font-size: 2em;
+  margin-block: 40px;
 }
 
 h3 {
   font-size: 1.5em;
+  font-weight: 600;
+  margin-block: 16px;
+}
+
+hr {
+  margin-block: 40px;
+  border-color: rgba(97, 97, 97, 0.2);
 }
 
 pre {
@@ -105,7 +123,12 @@ p{
   height: 350px;
 }
 
-.section-content { 
+.section-content img{
+  margin-block-start: 40px;
+  display: block;
+}
+
+.section-content {
   counter-reset: titleList;
 }
 
@@ -114,7 +137,7 @@ p{
 }
 
 .section-content h3::before {
-  content: counter(titleList, decimal)
+  content: counter(titleList, decimal)'. '
 }
 
 .section-content h3::after {
@@ -125,6 +148,17 @@ p{
   display: inline-block;
 }
 
+blockquote {
+  border-radius: 8px;
+  margin-block-start: 80px;
+  margin-block-end: 63px;
+  background-color: var(--white10);
+}
+
 /* ::selection {
   background: green;
 } */
+
+.main  hr{
+  display: none;
+}

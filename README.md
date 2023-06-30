@@ -374,7 +374,7 @@ Cuando nuestros estilos y elementos se van expandiendo a veces es difícil saber
 
 
 ##### Wrapping techniques
-Consiste en tener un componente, un encapsulador del contenido y el contenido.
+Consiste en tener un componente, un encapsulador del contenido y el contenido.x
 
  ```html
   <section class="services">
@@ -418,3 +418,14 @@ Podemos crear ventanas de modal con el position absolute de la siguiente manera:
 Esta tecnica se asemeja a dos imanes que esta jalando al elemento y entre comillas le va dar el 100% de su contenedor.
 
 - Cuando usamos position absolute toma como padre al primer elemento con <code>position:relative</code>, si no lo hubiera toma al viewport
+
+#### Layout with properties and logical values
+
+##### Margins
+
+
+<code>margin-inline: 100px;</code>, esta es de derecha a izquierda
+
+<code>margin-block: 100px;</code>, es es de arriba hacia abajo
+
+Esto se aplica en ese caso, siempre y cuando no se haya modificado el flex-direction
