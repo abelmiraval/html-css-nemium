@@ -430,5 +430,8 @@ Esta tecnica se asemeja a dos imanes que esta jalando al elemento y entre comill
 Esto se aplica en ese caso, siempre y cuando no se haya modificado el flex-direction
 
 ##### Sizes / Wrapper
-
 Aplicación de la técnica del wrapper usando max-inline-size
+
+##### Padding
+Aprenderemos sobre padding-block y padding-inline
+
