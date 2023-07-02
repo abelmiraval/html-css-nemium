@@ -435,3 +435,5 @@ Aplicación de la técnica del wrapper usando max-inline-size
 ##### Padding
 Aprenderemos sobre padding-block y padding-inline
 
+##### Borders
+Aprenderemos sobre border-block y border-inline
