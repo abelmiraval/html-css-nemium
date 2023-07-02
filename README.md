@@ -437,3 +437,15 @@ Aprenderemos sobre padding-block y padding-inline
 
 ##### Borders
 Aprenderemos sobre border-block y border-inline
+
+##### Positions
+Aprenderemos sobre insets para reemplazar top right bottom left
+
+Creacion de un modal
+```css
+.header {
+  background: red;
+  position: fixed;
+  inset: 0;
+}
+```
