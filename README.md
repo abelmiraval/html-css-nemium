@@ -449,3 +449,9 @@ Creacion de un modal
   inset: 0;
 }
 ```
+
+##### Slider with just CSS
+
+Sin JavaScript podemos lograr un gran slider, mucho performance y de fácil implementación. Lo mejor de 2 mundos.
+
+
