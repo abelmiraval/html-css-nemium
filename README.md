@@ -457,3 +457,29 @@ Sin JavaScript podemos lograr un gran slider, mucho performance y de fácil impl
 Los formularios son fundamentales para el ingreso de datos y conocer más a nuestros usuarios.
 
 [Formularios](https://developer.mozilla.org/es/docs/Learn/Forms/Your_first_form)
+
+##### Meida Queries y Responsive Design
+Vamos a adaptar nuestro sitio para que se vea excelente en pantallas pequeñas
+
+```pre
+@media print, afecte a impresion
+@media all, afecte a todos los dispositivos
+@screen, afecte solo a la pantalla
+```
+
+
+- Móviles en horizontal o tablets en vertical
+```html
+@media creen and (min-width: 768px) { }
+```
+
+- Tablets en horizonal y escritorios normales
+```html
+@media creen and (min-width: 1024px) { } /
+```
+
+- Escritorios muy anchos
+```html
+@media creen and (min-width: 1350px) {
+}
+```
