@@ -483,3 +483,10 @@ Vamos a adaptar nuestro sitio para que se vea excelente en pantallas pequeñas
 @media creen and (min-width: 1350px) {
 }
 ```
+
+
+#####  Open Graph
+Los metadatos ayudarán a los motores de búsqueda y crawlers a dar más información sobre lo que vamos a presentar en nuestra página, de hecho es el tip más valioso para generar un preview de la página en Facebook, Twitter, o cualquier red social donde compartamos un enlace.
+
+[https://developers.facebook.com/tools/debug/](https://developers.facebook.com/tools/debug/)
+[ogp.me](https://ogp.me/)
