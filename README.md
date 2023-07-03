@@ -490,3 +490,9 @@ Los metadatos ayudarán a los motores de búsqueda y crawlers a dar más informa
 
 [https://developers.facebook.com/tools/debug/](https://developers.facebook.com/tools/debug/)
 [ogp.me](https://ogp.me/)
+
+##### Favicon
+El logo de nuestro proyecto se verá en el tab del navegador con esta clase
+
+
+[https://www.favicon-generator.org/](https://www.favicon-generator.org/)
