@@ -451,7 +451,9 @@ Creacion de un modal
 ```
 
 ##### Slider with just CSS
-
 Sin JavaScript podemos lograr un gran slider, mucho performance y de fácil implementación. Lo mejor de 2 mundos.
 
+##### Forms
+Los formularios son fundamentales para el ingreso de datos y conocer más a nuestros usuarios.
 
+[Formularios](https://developer.mozilla.org/es/docs/Learn/Forms/Your_first_form)
