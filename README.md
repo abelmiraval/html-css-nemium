@@ -137,7 +137,6 @@ Representan estados de un elemento
 Crean elementos especiales
 ![pseudoelemento](/images/pseudoelemento.png)
 
----
 ### User Agent Style
 Las etiquetas reciben estilos particulares predefinidos por el navegador.
 
@@ -147,7 +146,6 @@ Para quitar esos estilos usar [Reset CSS](https://meyerweb.com/eric/tools/css/re
 
 ![user agent style](/images/user-agent-style-2.png)
 
----
 ### Cascada, Especificidad y Herencia
 
 #### Cascada
@@ -163,7 +161,6 @@ La herencia va en todos los niveles, la herencias mas usados, son tamaño, font-
 
 ![propiedades herencia](/images/propiedades-herencia.png)
 
----
 
 ### Content Component Layout
 #### Contenido
@@ -180,10 +177,9 @@ Son conjunto un de contenidos
 Con los componentes componenmos un layout
 ![layout](/images/layout.png)
 
----
-### Display/Flow/inline-block
+### display / flow / inline-block
 
-#### Display
+#### display
 Nos referimos a la propiedad que dice si un elemento o tag de HTML se comporta como block o inline
 
 #### display:block
@@ -203,13 +199,10 @@ Leemos de forma horizontal y de arriba hacia abajo.
 #### direction: ltr
 Leemos de izquierda a derecha. Esto se puede modificar en CSS para poder ajustar nuestro website a otro idiomas como el Árabe por ejemplo.
 
----
 ### Colors
 Un color puede ser descrito como palabra clave, hexadecimal, rgb(a) y hls(a) [color_value](https://developer.mozilla.org/es/docs/Web/CSS/color_value)
 
----
 ### Values and Units
-
 Existen [unidades de medida](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) a absolutas y relativas, en esta clase aprende a usar px, em, rem y vw
 
 #### px
@@ -224,8 +217,6 @@ Es una medida relativa, no va en herencia sobre herencia como lo hace los em, si
 #### vw
 Area visible del navegador, sin contar con el scroll
 
----
-
 ### Pseudo-clase
 Una [pseudo-clase](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes ) CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado.
 
@@ -233,36 +224,28 @@ Una [pseudo-clase](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes 
 Tiene un peso superior cuando lo usamos como pseudo-clase.
 
 
-#### Custom properties
+### Custom properties
 Los [custom properties](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes ) o variables en CSS nos ayudarán a almacenar datos para ser reutilizados por referencia en múltiples partes de nuestras hojas de estilo, son modificables según su contexto y también manipulables desde JavaScript. Se puede almacenar cualquier cosa, antes se usaba sass para poder lograr esta caracteristica.
 
----
-#### Custom fonts
+### Custom fonts
 Con las regla [@font-face](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes ) puedes añadir fuentes personalizadas
 
----
-
-#### Google fonts
+### Google fonts
 [google fonts](https://fonts.google.com/)
 
-#### Background
+### Background
 Con Background puedes poner un color, una imagen o hasta un degradado de fondo sobre un mismo elemento.
 
 El background  hace que se multiplique en el eje x y en el eje y, es una opcion por defecto.
 
 background es una propiedad resumida, donde aparte del color puedes añadir su position, repeat, etc. background-color es exclusiva para el color en color clase, hexadecimal, rgba o hsla.
 
----
-
-#### Pseudo Elements
+### Pseudo Elements
 Hay elementos seleccionables y creados a partir de otros elementos como after y before o el placeholder de los inputs de formulario.
 
----
-
-#### Counters
+### Counters
 Podemos crear [listas personalizadas](https://www.w3.org/TR/CSS2/generate.html#counter-styles) con otros elementos semánticos que no sean ul ol li, en este ejercicio vamos a enumerar cada subtítulo dentro de cada sección de nuestra página.
 
----
 
 ### Box Model
 Todos nuestros elementos forman un espacio potencialmente compuesto por contenido, relleno, bordes y márgenes.
@@ -281,7 +264,6 @@ Todos nuestros elementos forman un espacio potencialmente compuesto por contenid
 #### Width height
 ![box model](/images/width-height.png)
 
----
 ### Logical and physical properties and values
 Introducción al  [nuevo modelo de propiedades y valores](https://drafts.csswg.org/css-logical/)  nuevo modelo de propiedades y valores para una web más semántica
 
@@ -444,7 +426,6 @@ Vamos a adaptar nuestro sitio para que se vea excelente en pantallas pequeñas
 @media creen and (min-width: 1350px) {
 }
 ```
-
 
 ###  Open Graph
 Los metadatos ayudarán a los motores de búsqueda y crawlers a dar más información sobre lo que vamos a presentar en nuestra página, de hecho es el tip más valioso para generar un preview de la página en Facebook, Twitter, o cualquier red social donde compartamos un enlace.
