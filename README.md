@@ -88,53 +88,170 @@ Los selectores definen sobre que elemento se aplicara un conjutno de reglas CSS.
 
 #### Global
 Afecta a TODOS los elementos.
-![Selector global](/images/selector-global.png)
+```html
+<style>
+   * {
+    color: red;
+   }
+</style>
+
+<h1 id="title">Hola</h1>
+<h2 class="sub-title">Que</h2>
+<h3>hace</h3>
+```
 
 #### Etiqueta
 Hacen referencia a todos los elementos HTML que coincidan.
-![Selector etiqueta](/images/selector-etiqueta.png)
+```html
+<style>
+   h1 {
+    color: red;
+   }
+</style>
+
+<h1>Hola</h1>
+```
 
 #### Clase
-Las clases se puedan repetir y un elemento puede tener mas de una clase.
-![Selector clase](/images/selector-clase.png)
+Las clases se pueden repetir y un elemento puede tener mas de una clase.
+
+```html
+<style>
+   .title {
+    color: red;
+   }
+</style>
+
+<h1 class="title">Hola</h1>
+```
+
 
 #### Id
 Solo un elemento puede tener el mismo id en una pagina.
-![Selector id](/images/selector-id.png)
+```html
+<style>
+   #title {
+    color: red;
+   }
+</style>
+
+<h1 id="title">Hola</h1>
+```
 
 #### [atributo]
 Todos los elementos que contengan el atributo o valor de atributo en cuestion.
-![Selector atributo](/images/selector-atributo.png)
+
+```html
+<style>
+   [id='title'] {
+    color: red;
+   }
+</style>
+
+<h1 id="title">Hola</h1>
+```
 
 #### Grupo
 N selectores se pueden configurar con las mismas propiedas.
-![Selector grupo](/images/selector-grupo.png)
+
+```html
+<style>
+   #title, .sub-title {
+    color: red;
+   }
+</style>
+
+<h1 id="title">Hola</h1>
+<h2 class="sub-title">Que</h2>
+<h3>hace</h3>
+```
 
 #### Descendente
 Mas especificos.
-![Selector descendente](/images/selector-descendente.png)
+```html
+<body>
+  <style>
+    body .title{
+      color: red;
+    }
+  </style>
+  <h1 class="title">Hola</h1>
+  <main>
+    <h2 class="title">Que</h2>
+  </main>
+  <h3>Hace</h3>
+</body>
+```
 
 #### > Hijo directo
 Los hijos directos del selector previo a >.
-![Selector hijo directo](/images/selector-hijo-directo.png)
+
+```html
+<style>
+  body > .title{
+    color:red;
+  }
+</style>
+<h1 class="title">Hola</h1>
+<main>
+  <h2 class="title">Hace</h2>
+</main>
+```
 
 #### ~ Hermano
 Los elementos en el mismo nivel.
-![Selector hermano](/images/selector-hermano.png)
+```html
+<style>
+  h1 ~ h2 {
+    color: red;
+  }
+</style>
+
+<h1>Hola</h1>
+<h2>Que</h2>
+<h2>Hace</h2>
+```
 
 #### + Adyacente
 Como el hermano pero solo el mas cercano.
-![Selector adyacente](/images/selector-adyacente.png)
+```html
+<style>
+  h1 + h2 {
+    color: red;
+  }
+</style>
 
+<h1>Hola</h1>
+<h2>Que</h2>
+<h2>Hace</h2>
+```
 ### Pseudo Selectores
 
 #### :PseudoClase
 Representan estados de un elemento.
-![pseudoclase](/images/pseudoclase-hover.png)
+```html
+<style>
+  h1:hover {
+    color: red;
+  }
+</style>
+<h1>Hola</h1>
+```
 
 #### :PseudoElemento
 Crean elementos especiales.
-![pseudoelemento](/images/pseudoelemento.png)
+
+```html
+<style>
+  h1:after {
+    content: "-";
+  }
+  h1:before {
+    content: "-";
+  }
+</style>
+<h1>Hola</h1>
+```
 
 ### User Agent Style
 Las etiquetas reciben estilos particulares predefinidos por el navegador.
