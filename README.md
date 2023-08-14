@@ -416,12 +416,14 @@ Vamos a adaptar nuestro sitio para que se vea excelente en pantallas pequeñas.
 
 Móviles en horizontal o tablets en vertical.
 ```css
-@media creen and (min-width: 768px) { }
+@media creen and (min-width: 768px) {
+}
 ```
 
 Tablets en horizonal y escritorios normales.
 ```css
-@media creen and (min-width: 1024px) { } /
+@media creen and (min-width: 1024px) {
+}
 ```
 
 Escritorios muy anchos.
