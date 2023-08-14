@@ -72,12 +72,12 @@ La semantica le brinda sentido a cada elemento existente en un sitio web.
 CSS Cascaing Style Sheets es el lenguaje de estilos utilizado para describir la presentacion de documentos HTML.
 
 ### 3 formas de agregar CSS
-- A través de la etiqueta  *** link ***
-- A través de la etiqueta *** <style> </style> ***
+- A través de la etiqueta  ***link***
+- A través de la etiqueta ```<style> </style>```
 
-- A traves del atributo *** style ***
+- A traves del atributo ***style***
 
-La etiqueta *** <style> </style> *** se utiliza para hacer aplicar estilos a una plantilla de correo.
+La etiqueta ```<style> </style>``` se utiliza para hacer aplicar estilos a una plantilla de correo.
 
 ### Reglas de CSS
 ![Reglas de css](/images/rules-css.png)
@@ -85,7 +85,7 @@ La etiqueta *** <style> </style> *** se utiliza para hacer aplicar estilos a una
 ### Selectores
 Los selectores definen sobre que elemento se aplicara un conjutno de reglas CSS.
 
-[practice selectors](https://flukeout.github.io/)
+[Practice selectors](https://flukeout.github.io/)
 
 #### Global
 Afecta a TODOS los elementos.
@@ -200,7 +200,7 @@ Leemos de forma horizontal y de arriba hacia abajo.
 Leemos de izquierda a derecha. Esto se puede modificar en CSS para poder ajustar nuestro website a otro idiomas como el Árabe por ejemplo.
 
 ### Colors
-Un color puede ser descrito como palabra clave, hexadecimal, rgb(a) y hls(a) [color_value](https://developer.mozilla.org/es/docs/Web/CSS/color_value)
+Un color puede ser descrito como palabra clave, hexadecimal, rgb(a) y hls(a) [color_value](https://developer.mozilla.org/es/docs/Web/CSS/color_value).
 
 ### Values and Units
 Existen [unidades de medida](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) a absolutas y relativas, en esta clase aprende a usar px, em, rem y vw.
@@ -238,7 +238,7 @@ Con Background puedes poner un color, una imagen o hasta un degradado de fondo s
 
 El background  hace que se multiplique en el eje x y en el eje y, es una opcion por defecto.
 
-background es una propiedad resumida, donde aparte del color puedes añadir su position, repeat, etc. background-color es exclusiva para el color en color clase, hexadecimal, rgba o hsla.
+<code>background</code> es una propiedad resumida, donde aparte del color puedes añadir su position, repeat, etc. background-color es exclusiva para el color en color clase, hexadecimal, rgba o hsla.
 
 ### Pseudo Elements
 Hay elementos seleccionables y creados a partir de otros elementos como after y before o el placeholder de los inputs de formulario.
@@ -261,7 +261,7 @@ Todos nuestros elementos forman un espacio potencialmente compuesto por contenid
 #### Padding
 ![box model](/images/padding.png)
 
-#### Width height
+#### Width / Height
 ![box model](/images/width-height.png)
 
 ### Logical and physical properties and values
@@ -289,7 +289,7 @@ Espacio que hay alrededor de un elemento HTML por fuera de sus bordes.
 Efecto que sufren los márgenes colindantes en bloques que en vez de sumarse “colapsan” y solo queda el de mayor tamaño
 Este efecto solo funciona de manera vertical cuando el contexto es un elemento en bloque.
 
-[margin collapsing](https://dev.to/lupitacode/entendiendo-el-colapso-de-margenes-margin-collapsing-4oj6)
+[Margin collapsing](https://dev.to/lupitacode/entendiendo-el-colapso-de-margenes-margin-collapsing-4oj6)
 
 #### Padding
 Margen interno o “relleno” de un elemento HTML.
@@ -300,17 +300,17 @@ El espaciado con respecto a otros elementos para separarlos es el margin, el esp
 Las fronteras visibles con las que podrás diferenciar entre margen y relleno.
 
 #### Box sizing
-<pre>box-sizing: border-box</pre> sirve para poder controlar el ancho, los padding y borde no se sumarian a la caja, lo que haria es adaptarse al width.
-En proyectos que requiren mucha escabilidad no es recomendable la propiedad border box. Al no tener la propiedad <pre>border box</pre> cuando se expande se ajustara mas flexible.
+<code>box-sizing: border-box</code> sirve para poder controlar el ancho, los padding y borde no se sumarian a la caja, lo que haria es adaptarse al width.
+En proyectos que requiren mucha escabilidad no es recomendable la propiedad border box. Al no tener la propiedad <code>border box</code> cuando se expande se ajustara mas flexible.
 <pre>
 * {
   box-sizing: border-box;
 }
 </pre>
 
-Es una mala practica decir que todos los elementos sean border-box.
+Es una mala practica decir que todos los elementos sean <code>border-box</code>.
 
-Donde es recomendable usar <pre>border box</pre> es en los formularios para poder dividir en dos columnas, ejemplo la columna nombre y apellidos.
+Donde es recomendable usar <code>border box</code> es en los formularios para poder dividir en dos columnas, ejemplo la columna nombre y apellidos.
 
 #### Debug styles
 Cuando nuestros estilos y elementos se van expandiendo a veces es difícil saber dónde está un elemento y si realmente nuestros selectores lo están afectando o si sus dimensiones son correctas con respecto al modelo de caja.
@@ -367,9 +367,9 @@ Cuando usamos position absolute toma como padre al primer elemento con <code>pos
 
 #### Margins
 
-<code>margin-inline: 100px;</code>, esta es de derecha a izquierda
+<code>margin-inline: 100px;</code>, esta es de derecha a izquierda.
 
-<code>margin-block: 100px;</code>, es es de arriba hacia abajo
+<code>margin-block: 100px;</code>, es es de arriba hacia abajo.
 
 Esto se aplica en ese caso, siempre y cuando no se haya modificado el flex-direction.
 
@@ -386,6 +386,7 @@ Aprenderemos sobre border-block y border-inline.
 Aprenderemos sobre insets para reemplazar top right bottom left.
 
 Creacion de un modal
+
 ```css
 .header {
   background: red;
@@ -405,25 +406,26 @@ Los formularios son fundamentales para el ingreso de datos y conocer más a nues
 ### Media Queries y Responsive Design
 Vamos a adaptar nuestro sitio para que se vea excelente en pantallas pequeñas.
 
-```pre
-@media print, afecte a impresion
-@media all, afecte a todos los dispositivos
-@screen, afecte solo a la pantalla
-```
+
+<code>@media print</code>, afecte a impresion.
+
+<code>@media all</code>, afecte a todos los dispositivos.
+
+<code>@screen</code>, afecte solo a la pantalla.
 
 
-Móviles en horizontal o tablets en vertical
-```html
+Móviles en horizontal o tablets en vertical.
+```css
 @media creen and (min-width: 768px) { }
 ```
 
-Tablets en horizonal y escritorios normales
-```html
+Tablets en horizonal y escritorios normales.
+```css
 @media creen and (min-width: 1024px) { } /
 ```
 
-Escritorios muy anchos
-```html
+Escritorios muy anchos.
+```css
 @media creen and (min-width: 1350px) {
 }
 ```
