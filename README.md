@@ -302,11 +302,12 @@ Las fronteras visibles con las que podrás diferenciar entre margen y relleno.
 #### Box sizing
 <code>box-sizing: border-box</code> sirve para poder controlar el ancho, los padding y borde no se sumarian a la caja, lo que haria es adaptarse al width.
 En proyectos que requiren mucha escabilidad no es recomendable la propiedad border box. Al no tener la propiedad <code>border box</code> cuando se expande se ajustara mas flexible.
-<pre>
+
+```css
 * {
   box-sizing: border-box;
 }
-</pre>
+```
 
 Es una mala practica decir que todos los elementos sean <code>border-box</code>.
 
@@ -346,16 +347,17 @@ a) El position relative conserva su lugar fisico.
 b) El position absolute se ubica en donde se encuentra fisicamente, no conserva su lugar fisico.
 
 Podemos crear ventanas de modal con el position absolute de la siguiente manera:
-<pre>
-  .modal{
+
+```css
+.modal{
     position: absolute
     top:0;
     right:0;
     bottom:0;
     left:0;
     margin: 50px
-  }
-</pre>
+}
+```
 
 Esta tecnica se asemeja a dos imanes que esta jalando al elemento y entre comillas le va dar el 100% de su contenedor.
 
